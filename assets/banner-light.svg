@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="khb-works: Flutter, Kotlin and Swift">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f8fa"/>
+      <stop offset="1" stop-color="#eaf2fb"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#13B9FD"/>
+      <stop offset="0.55" stop-color="#7F52FF"/>
+      <stop offset="1" stop-color="#F05138"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+    <style>
+      .title { font: 700 66px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #1f2328; }
+      .sub { font: 500 27px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; }
+      .line { font: 500 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #0969da; }
+      .label { font: 500 15px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect y="292" width="1200" height="8" fill="url(#accent)"/>
+  </g>
+  <text x="70" y="126" class="title">khb-works</text>
+  <text x="72" y="172" class="sub">Flutter developer · Kotlin · Swift</text>
+  <g transform="translate(72 226)">
+    <text y="0" class="line" opacity="1">&gt; native modules with Pigeon, Kotlin and Swift
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.29;0.33;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+    </text>
+    <text y="0" class="line" opacity="0">&gt; location and permissions on Android and iOS
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.29;0.33;1" dur="9s" begin="3s" repeatCount="indefinite"/>
+    </text>
+    <text y="0" class="line" opacity="0">&gt; integration tests across several devices
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.29;0.33;1" dur="9s" begin="6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <g transform="translate(800 46)">
+    <rect width="120" height="210" rx="20" fill="#ffffff" stroke="#8c959f" stroke-width="2"/>
+    <rect x="10" y="14" width="100" height="168" rx="10" fill="#f6f8fa"/>
+    <rect x="10" y="14" width="100" height="26" rx="10" fill="#7F52FF"/>
+    <rect x="10" y="30" width="100" height="10" fill="#7F52FF"/>
+    <rect x="20" y="52" width="80" height="10" rx="5" fill="#13B9FD"/>
+    <rect x="20" y="70" width="56" height="8" rx="4" fill="#d0d7de"/>
+    <rect x="20" y="86" width="68" height="8" rx="4" fill="#d0d7de"/>
+    <rect x="20" y="108" width="80" height="44" rx="8" fill="#13B9FD" opacity="0.18"/>
+    <circle cx="60" cy="130" r="9" fill="#13B9FD"/>
+    <rect x="44" y="192" width="32" height="5" rx="2.5" fill="#8c959f"/>
+    <text x="60" y="236" text-anchor="middle" class="label">Android</text>
+  </g>
+  
+  <g transform="translate(1010 46)">
+    <rect width="120" height="210" rx="20" fill="#ffffff" stroke="#8c959f" stroke-width="2"/>
+    <rect x="10" y="14" width="100" height="168" rx="10" fill="#f6f8fa"/>
+    <rect x="10" y="14" width="100" height="26" rx="10" fill="#F05138"/>
+    <rect x="10" y="30" width="100" height="10" fill="#F05138"/>
+    <rect x="20" y="52" width="80" height="10" rx="5" fill="#13B9FD"/>
+    <rect x="20" y="70" width="56" height="8" rx="4" fill="#d0d7de"/>
+    <rect x="20" y="86" width="68" height="8" rx="4" fill="#d0d7de"/>
+    <rect x="20" y="108" width="80" height="44" rx="8" fill="#13B9FD" opacity="0.18"/>
+    <circle cx="60" cy="130" r="9" fill="#13B9FD"/>
+    <rect x="44" y="192" width="32" height="5" rx="2.5" fill="#8c959f"/>
+    <text x="60" y="236" text-anchor="middle" class="label">iOS</text>
+  </g>
+  <line x1="926" y1="151" x2="1004" y2="151" stroke="#8c959f" stroke-width="2" stroke-dasharray="5 6"/>
+  <circle cx="930" cy="151" r="7" fill="#13B9FD">
+    <animate attributeName="cx" values="930;1000;930" dur="2.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1" keyTimes="0;0.5;1"/>
+  </circle>
+</svg>
